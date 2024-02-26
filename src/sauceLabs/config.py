@@ -1,0 +1,1 @@
+APPLICATION_URL = "https://www.saucedemo.com/"

@@ -1,0 +1,7 @@
+
+__pycache__/
+*.log
+*.egg-info/
+.installed.cfg
+*.egg
+MNIST
