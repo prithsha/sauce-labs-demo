@@ -30,8 +30,7 @@ def start():
         browser.close()
         browser.kill()
 
-    
-
+ 
 def login(browser : BrowserController):
     browser.wait_for_element_presence_or_visibility(By.ID, "user-name")
     browser.send_keys(By.ID,"user-name","standard_user")
@@ -42,5 +41,5 @@ def check_product_page_availability(browser : BrowserController):
     app_title = browser.get_text(By.CLASS_NAME, "app_logo")
 
     if(app_title != "Swag Labs"):
-        raise(ValueError("Wrong value error"))
+        raise(ValueError("Wrong value errors validation"))
 
