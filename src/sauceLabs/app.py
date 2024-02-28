@@ -43,4 +43,3 @@ def check_product_page_availability(browser : BrowserController):
     if(app_title != "Swag Labs"):
         raise(ValueError("Wrong value errors validation"))
 
-#dummy comment
